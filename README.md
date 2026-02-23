@@ -26,13 +26,13 @@ The model learns from **labeled** training data (Input **X**→ Output **y**).
 
 Used when the output variable is a real or continuous value (e.g., salary, weight, temperature).
 
-| Algorithm                                 | Description                                                                          | Example Problem                                                               |
-| ----------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
-| **Linear Regression**               | Fits a straight line (**y**=**m**x**+**c) to model relationships.        | **Physics:**Predicting spring extension based on force (Hooke's Law).         |
-| **Polynomial Regression**           | Fits a curve for non-linear relationships.                                           | **Biology:**Modeling bacterial growth rates over time.                        |
-| **Support Vector Regression (SVR)** | Finds a function that approximates data within a margin of tolerance (**ϵ**). | **Finance:**Predicting future stock prices based on historical trends.        |
-| **Decision Tree Regression**        | Splits data into branches based on a series of decision rules.                       | **Real Estate:**Predicting house prices based on square footage and location. |
-| **Random Forest Regression**        | An ensemble of decision trees to improve accuracy and control overfitting.           | **Meteorology:**Predicting rainfall amount (mm) based on humidity/temp.       |
+| Algorithm                                 | Description                                                                          | Example Problem                                                                      |
+| ----------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| **Linear Regression**               | Fits a straight line$y=mx+c$ to model relationships.                              | **Physics:** Predicting spring extension based on force (Hooke's Law).         |
+| **Polynomial Regression**           | Fits a curve for non-linear relationships.                                           | **Biology:** Modeling bacterial growth rates over time.                        |
+| **Support Vector Regression (SVR)** | Finds a function that approximates data within a margin of tolerance (**ϵ**). | **Finance:** Predicting future stock prices based on historical trends.        |
+| **Decision Tree Regression**        | Splits data into branches based on a series of decision rules.                       | **Real Estate:** Predicting house prices based on square footage and location. |
+| **Random Forest Regression**        | An ensemble of decision trees to improve accuracy and control overfitting.           | **Meteorology:** Predicting rainfall amount (mm) based on humidity/temp.       |
 
 ![regression vs classification, AI generated](https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTphPNn7HfXYaCzOEXr7V9qtOBhxEj475xEsnaxYzELMOZGu3ZUyO6AVMUCn8knjkZ0f4MzKJmwdgN_NnJuOaD6aNkKhvKjD_HAPDbhjnEEz2LQi3E)**Shutterstock**
 
@@ -40,13 +40,13 @@ Used when the output variable is a real or continuous value (e.g., salary, weigh
 
 Used when the output variable is a category (e.g., Yes/No, Spam/Not Spam, Digit 0-9).
 
-| Algorithm                               | Description                                                              | Example Problem                                                        |
-| --------------------------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
-| **Logistic Regression**           | Uses a sigmoid function to output a probability (0 to 1).                | **Medicine:**Predicting if a tumor is Malignant (1) or Benign (0).     |
-| **K-Nearest Neighbors (K-NN)**    | Classifies a point based on the majority class of its 'k' neighbors.     | **Pattern Recognition:**Recognizing handwritten digits (0-9).          |
-| **Support Vector Machines (SVM)** | Finds a hyperplane that maximizes the margin between classes.            | **Neuroscience:**Detecting "Resting" vs. "Active" brain states in EEG. |
-| **Naive Bayes**                   | Probabilistic classifier based on Bayes' Theorem (feature independence). | **NLP:**Classifying emails as "Spam" vs. "Inbox."                      |
-| **Decision Tree Classification**  | Uses a tree structure to classify data via a sequence of questions.      | **Diagnosis:**Diagnosing a disease based on a symptom checklist.       |
+| Algorithm                               | Description                                                              | Example Problem                                                               |
+| --------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
+| **Logistic Regression**           | Uses a sigmoid function to output a probability (0 to 1).                | **Medicine:** Predicting if a tumor is Malignant (1) or Benign (0).     |
+| **K-Nearest Neighbors (K-NN)**    | Classifies a point based on the majority class of its 'k' neighbors.     | **Pattern Recognition:** Recognizing handwritten digits (0-9).          |
+| **Support Vector Machines (SVM)** | Finds a hyperplane that maximizes the margin between classes.            | **Neuroscience:** Detecting "Resting" vs. "Active" brain states in EEG. |
+| **Naive Bayes**                   | Probabilistic classifier based on Bayes' Theorem (feature independence). | **NLP:** Classifying emails as "Spam" vs. "Inbox."                      |
+| **Decision Tree Classification**  | Uses a tree structure to classify data via a sequence of questions.      | **Diagnosis:** Diagnosing a disease based on a symptom checklist.       |
 
 ---
 
@@ -56,11 +56,11 @@ The model learns from **unlabeled** data, identifying hidden structures or patte
 
 ### A. Clustering (Grouping Similar Data)
 
-| Algorithm                         | Description                                                          | Example Problem                                                          |
-| --------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **K-Means Clustering**      | Partitions data into 'K' clusters based on distance to a centroid.   | **Marketing:**Customer segmentation (Budget vs. Spender).                |
-| **Hierarchical Clustering** | Builds a tree of clusters (dendrogram) showing nested relationships. | **Genetics:**Reconstructing evolutionary trees based on DNA.             |
-| **DBSCAN**                  | Density-based clustering; finds arbitrary shapes and ignores noise.  | **Astronomy:**Identifying star clusters while ignoring background noise. |
+| Algorithm                         | Description                                                          | Example Problem                                                                 |
+| --------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| **K-Means Clustering**      | Partitions data into 'K' clusters based on distance to a centroid.   | **Marketing:** Customer segmentation (Budget vs. Spender).                |
+| **Hierarchical Clustering** | Builds a tree of clusters (dendrogram) showing nested relationships. | **Genetics:** Reconstructing evolutionary trees based on DNA.             |
+| **DBSCAN**                  | Density-based clustering; finds arbitrary shapes and ignores noise.  | **Astronomy:** Identifying star clusters while ignoring background noise. |
 
 ### B. Dimensionality Reduction (Simplifying Data)
 
@@ -74,9 +74,9 @@ Crucial for visualizing high-dimensional data or reducing noise.
 
 ### C. Association (Finding Rules)
 
-| Algorithm                 | Description                                                   | Example Problem                                                              |
-| ------------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| **Apriori / Eclat** | Identifies frequent itemsets and generates association rules. | **Retail:**Market Basket Analysis (e.g., "People who buy bread buy butter"). |
+| Algorithm                 | Description                                                   | Example Problem                                                                     |
+| ------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **Apriori / Eclat** | Identifies frequent itemsets and generates association rules. | **Retail:** Market Basket Analysis (e.g., "People who buy bread buy butter"). |
 
 ---
 
@@ -84,13 +84,13 @@ Crucial for visualizing high-dimensional data or reducing noise.
 
 Models mimicking the human brain using layers of artificial neurons.
 
-| Algorithm                              | Description                                         | Best For                                                      |
-| -------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------- |
-| **Multi-Layer Perceptron (MLP)** | Simplest DL form with fully connected layers.       | Tabular data classification/regression.                       |
-| **CNN**                          | Uses filters to scan data; translation invariant.   | **Computer Vision:**Image classification, YOLO, MRI analysis. |
-| **RNN / LSTM / GRU**             | Features "memory" loops to process sequences.       | **Time-Series:**Speech recognition, stock prediction.         |
-| **Transformers**                 | Uses "Attention" to process input data in parallel. | **GenAI:**GPT, BERT, Google Translate, AlphaFold.             |
-| **Autoencoders**                 | Compresses then reconstructs input data.            | **Anomaly Detection:**Denoising images, fraud detection.      |
+| Algorithm                              | Description                                         | Best For                                                             |
+| -------------------------------------- | --------------------------------------------------- | -------------------------------------------------------------------- |
+| **Multi-Layer Perceptron (MLP)** | Simplest DL form with fully connected layers.       | Tabular data classification/regression.                              |
+| **CNN**                          | Uses filters to scan data; translation invariant.   | **Computer Vision:** Image classification, YOLO, MRI analysis. |
+| **RNN / LSTM / GRU**             | Features "memory" loops to process sequences.       | **Time-Series:** Speech recognition, stock prediction.         |
+| **Transformers**                 | Uses "Attention" to process input data in parallel. | **GenAI:** GPT, BERT, Google Translate, AlphaFold.             |
+| **Autoencoders**                 | Compresses then reconstructs input data.            | **Anomaly Detection:** Denoising images, fraud detection.      |
 
 ![a neural network architecture, AI generated](https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSX9oiM6wlGZrbqacJCf0uqfcyZYbffIDF42NuuI0FfLRPZwxS4Mqw7kZHlsnaZs7V3lke450VVDampBIGdZo7KS4y-s3VM-q2wDXMemeEtZA7y6gU)**Getty Images**
 
@@ -111,11 +111,11 @@ Combining multiple "weak" models to create one strong predictor.
 
 An **Agent** learns by interacting with an **Environment** via **Rewards** and  **Punishments** .
 
-| Algorithm                        | Description                                         | Example Problem                                           |
-| -------------------------------- | --------------------------------------------------- | --------------------------------------------------------- |
-| **Q-Learning**             | Learns a "Q-table" of best actions for every state. | **Gaming:**Tic-Tac-Toe, simple maze navigation.           |
-| **Deep Q-Networks (DQN)**  | Uses a Neural Network to approximate the Q-table.   | **Advanced Gaming:**Atari, Super Mario.                   |
-| **Policy Gradients (PPO)** | Optimizes the strategy (policy) directly.           | **Robotics:**Teaching a robot to walk; self-driving cars. |
+| Algorithm                        | Description                                         | Example Problem                                                  |
+| -------------------------------- | --------------------------------------------------- | ---------------------------------------------------------------- |
+| **Q-Learning**             | Learns a "Q-table" of best actions for every state. | **Gaming:** Tic-Tac-Toe, simple maze navigation.           |
+| **Deep Q-Networks (DQN)**  | Uses a Neural Network to approximate the Q-table.   | **Advanced Gaming:** Atari, Super Mario.                   |
+| **Policy Gradients (PPO)** | Optimizes the strategy (policy) directly.           | **Robotics:** Teaching a robot to walk; self-driving cars. |
 
 ![reinforcement learning feedback loop, AI generated](https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcThnAAr78Ocl6gGEXDM4gXuLRx_3yhwlBMnGHfSiBkJYncn_AYRhSKzM_dtqlVQ7KkeeARkjmM6SP_qj4b5jlI3Lp12qxYP1cJZLtNZ5zBUeERiHKE)**Getty Images**
 
