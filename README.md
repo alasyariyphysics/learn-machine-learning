@@ -66,11 +66,11 @@ The model learns from **unlabeled** data, identifying hidden structures or patte
 
 Crucial for visualizing high-dimensional data or reducing noise.
 
-| Algorithm | Description | Example Problem |
-| :--- | :--- | : :--- |
-| **PCA** | Projects data onto orthogonal axes that maximize variance. | **Neuroscience:** Compressing 64 EEG channels into a 2D plot. |
-| **t-SNE / UMAP** | Non-linear techniques designed for 2D/3D visualization. | **Genomics:** Visualizing clusters of different cell types in RNA-seq. |
-| **ICA** | Separates a multivariate signal into additive subcomponents. | **Signal Processing:** Separating a single voice from background noise. |
+| Algorithm    | Description                                                  | Example Problem                                                     |
+| ------------ | ------------------------------------------------------------ | ------------------------------------------------------------------- |
+| PCA          | Projects data onto orthogonal axes that maximize variance.   | Neuroscience: Compressing 64 EEG channels into a 2D plot.           |
+| t-SNE / UMAP | Non-linear techniques designed for 2D/3D visualization.      | Genomics: Visualizing clusters of different cell types in RNA-seq.  |
+| ICA          | Separates a multivariate signal into additive subcomponents. | Signal Processing: Separating a single voice from background noise. |
 
 ### C. Association (Finding Rules)
 
