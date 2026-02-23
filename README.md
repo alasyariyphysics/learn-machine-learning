@@ -2,7 +2,7 @@
 
 This document serves as a high-level technical reference for the various paradigms, algorithms, and use cases within the Machine Learning (ML) and Deep Learning (DL) ecosystem.
 
-## 📌 Table of Contents
+## Table of Contents
 
 1. [Supervised Learning](https://www.google.com/search?q=%231-supervised-learning&authuser=1)
    * [Regression](https://www.google.com/search?q=%23a-regression&authuser=1)
@@ -35,8 +35,6 @@ Used when the output variable is a real or continuous value (e.g., salary, weigh
 | **Random Forest Regression**        | An ensemble of decision trees to improve accuracy and control overfitting.           | **Meteorology:**Predicting rainfall amount (mm) based on humidity/temp.       |
 
 ![regression vs classification, AI generated](https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTphPNn7HfXYaCzOEXr7V9qtOBhxEj475xEsnaxYzELMOZGu3ZUyO6AVMUCn8knjkZ0f4MzKJmwdgN_NnJuOaD6aNkKhvKjD_HAPDbhjnEEz2LQi3E)**Shutterstock**
-
-** Explore **
 
 ### B. Classification (Predicting Discrete Categories)
 
@@ -120,10 +118,6 @@ An **Agent** learns by interacting with an **Environment** via **Rewards** and  
 | **Policy Gradients (PPO)** | Optimizes the strategy (policy) directly.           | **Robotics:**Teaching a robot to walk; self-driving cars. |
 
 ![reinforcement learning feedback loop, AI generated](https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcThnAAr78Ocl6gGEXDM4gXuLRx_3yhwlBMnGHfSiBkJYncn_AYRhSKzM_dtqlVQ7KkeeARkjmM6SP_qj4b5jlI3Lp12qxYP1cJZLtNZ5zBUeERiHKE)**Getty Images**
-
-** Explore **
-
----
 
 ## 6. Specialized & Modern Paradigms
 
