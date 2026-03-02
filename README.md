@@ -1,4 +1,4 @@
-# Machine Learning & Deep Learning: A Comprehensive Metadata Guide
+# Machine Learning & Deep Learning: A Comprehensive Guide
 
 This document serves as a high-level technical reference for the various paradigms, algorithms, and use cases within the Machine Learning (ML) and Deep Learning (DL) ecosystem.
 
